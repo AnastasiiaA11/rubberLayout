@@ -22,33 +22,86 @@ html {
 	margin-top: 52px;
 }
 
-.header__logo {}
+.header__logo-img{
+	padding-top: 5px;
+}
 
 .header__logo-text {
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 3.4rem;
 	display: inline;
+	text-align: center;
+	line-height: 1;
 }
 
 .header__menu {}
 
 .header__items {
-	display: flex;
-	justify-content: space-between;
-	width: 645px;
-	font-size: 1.8rem;
-
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 3;
 }
 
-.header__item {}
+.header__item {
+	display: inline;
+}
 
 .header__link {
 	color: black;
+	margin-right: 48px;
+	font-weight: 600;
 }
+
 
 .link__black {
 	color: white;
 	background-color: black;
 	padding: 11px 16px;
 	border-radius: 5px;
+	margin-right: 0px;
+	display: inline-block;
 }
+
+/*---------------start-page----------*/
+
+.main{
+	font-family: 'Poppins', sans-serif;
+}
+ .start-page{
+	padding-top: 70px;
+ }
+.start-page__body{
+	background: url('img/start-page/background-girl.png') 48rem 9rem/51rem 46rem no-repeat, url('img/start-page//background.jpg') no-repeat;
+	height: 638px;
+	padding: 57px 62px 0px 89px;
+}
+
+.start-page__img{
+	
+	
+}
+.img-girl{
+	
+}
+.start-page__title{
+	width: 356px;
+	font-size: 6rem;
+	font-weight:900;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	background: url('img/start-page/white.png') 0px -10px no-repeat, url('img/start-page/wellow.png') 0px 130px no-repeat;
+}
+
+.start-page__text{
+	font-size: 2rem;
+	margin-top: 40px;
+	margin-bottom: 64px;
+}
+
+.start-page-link{
+padding: 22px 27px;
+font-size: 2.1rem;
+display: inline-block;
+}
+
+
